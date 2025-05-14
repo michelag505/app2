@@ -39,67 +39,31 @@ BASEDIR = 'FinalProject/App/'
 
 #> Futures Presentation <#
 st.write("---")
-st.write("## :chart: Futures")
+st.write("## :chart: Futures Outline")
 st.write(
 """Here is a rundown of the futures that we used in our study:
-- **RX1**: Fixed-income security issued by the Federal Republic of Germany.
-It is considered a benchmark bond and is widely regarded as one of the safest
-and most liquid government bonds. It's highly liquid, supported by active
-trading, high trading volumes, and the presence of market makers.
-- **CO1**: Price of Brent crude oil in the financial markets. It's a benchmark
-for global oil prices. The price of Brent crude oil can be volatile due to
-various factors.
-- **DU1**: The German 2-year government bond, known as the "Schatz." It has a
-maturity of 2 years. It's considered to be a Safe Haven asset and it is a
-relatively liquid instrument.
-- **ES1**: It represents a broad-based stock market index of 500 large companies
-listed on U.S. stock exchanges. The S&P 500 provides diversification by
-including a large number of stocks from different sectors and industries. This
-diversification helps spread risk across multiple companies and industries.
-- **GC1**: Price of gold. Gold is widely recognized as a store of value. It's a
-safe haven asset, particularly during times of economic uncertainty or market
-volatility. Investors tend to turn to gold as a hedge against inflation,
-currency fluctuations, and geopolitical risks. Gold can have sharp price
-movements in response to global events and market conditions. Gold is frequently
-used as a diversification tool in investment portfolios. Its low correlation
-with other asset classes, such as stocks and bonds, can help reduce overall
-portfolio risk.
-- **NQ1**: The Nasdaq 100 index. The Nasdaq 100 is an index that primarily
-focuses on the technology sector. It includes a wide range of technology-related
-companies. The Nasdaq 100 includes 100 of the largest non-financial companies
-listed on the Nasdaq stock exchange. These companies are typically
-well-established and have significant market capitalization.
-- **TP1**: It's associated with the Topix index. The Topix index represents the
-overall performance of the Japanese equity market. It is a broad-based stock
-market index that includes a wide range of companies listed on the Tokyo Stock
-Exchange (TSE).The Topix provides diversification by including companies from
-various sectors and industries within the Japanese equity market. Investing in
-the Topix provides exposure to the Japanese economy, which is one of the largest
-economies globally.
-- **TU2**: It refers to the 2-year US Treasury bond. The 2-year US Treasury bond
-is a debt security issued by the United States government to finance its
-operations and obligations. It is backed by the full faith and credit of the US
-government, making it a relatively low-risk investment. It is a fixed income
-instrument. US Treasury bonds are considered to be virtually risk-free due to
-the creditworthiness of the US government. They are often used as a benchmark
-for risk-free interest rates in financial markets.
-- **TY1**: 10-years US Treasury bond, it's a debt security issued by the United
-States government to finance its operations and obligations. It is backed by the
-full faith and credit of the US government, making it a relatively low-risk
-investment. US Treasury bonds are considered to be virtually risk-free due to
-the creditworthiness of the US government. They are often used as a benchmark
-for risk-free interest rates in financial markets. The US government actively
-supports the liquidity of its debt securities, ensuring there is a robust market
-for investors to transact. It's a Safe Haven Asset. 
-- **VG1**: Euro Stoxx 50 index. The Euro Stoxx 50 index represents the
-performance of the 50 largest and most liquid stocks across 12 Eurozone
-countries. It is a widely recognized benchmark for the European equity market.
-The Euro Stoxx 50 includes blue-chip companies that are considered leaders in
-their respective industries. These companies are typically well-established,
-large-cap entities with significant market capitalization. Market conditions and
-factors specific to the European economy can contribute to fluctuations in the
-index's performance."""
-)
+**RX1**: Highly liquid German government bond, widely regarded as a safe benchmark for fixed-income investments.
+
+**TY1**: 10-year U.S. Treasury bond, representing a longer-term, low-risk government debt instrument, often used for market stability.
+
+**GC1**: Gold, often used as a store of value and a hedge against inflation and market instability.
+
+**CO1**: The price of Brent crude oil, a major global price indicator for oil, known for its volatility due to geopolitical and market factors.
+
+**ES1**: The S&P 500 index, tracking the performance of 500 large U.S. companies across various sectors, providing diversification.
+
+**VG1**: The Euro Stoxx 50 index, which includes the 50 largest and most liquid stocks across the Eurozone, representing key European industries.
+
+**NQ1**: The Nasdaq 100, an index mainly comprising large technology and non-financial companies listed on the Nasdaq.
+
+**TP1**: The Topix index, which tracks the performance of Japanese stocks across multiple sectors, offering broad exposure to Japan’s economy.
+
+**DU1**: 2-year German government bond, also called the “Schatz,” known as a safe, liquid short-term investment.
+
+**TU2**: 2-year U.S. Treasury bond, considered a low-risk, short-term government debt security, used as a benchmark for risk-free rates.
+
+
+
 
 #> Futures Selection <#
 st.write("---")
