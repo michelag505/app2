@@ -7,24 +7,13 @@ import numpy as np
 import pickle
 
 # https://www.webfx.com/tools/emoji-cheat-sheet/
-import streamlit as st
-from PIL import Image
-
-# Carica l'immagine
-logo = Image.open('FinalProject/App/Logo_Politecnico_Milano.png')
-
-# Imposta il logo come titolo della pagina
-st.image(logo, width=100)  # Puoi modificare la larghezza a piacere
-
-# Imposta la configurazione della pagina
 st.set_page_config(
     page_title="PortFolio replication",
     page_icon=":chart_with_upwards_trend:",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# Nascondi il menu e il footer
+# hide the menu and footer
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -33,12 +22,17 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-# Header
+BASEDIR = 'FinalProject/App/'
+
+#> Header <#
 st.title(" :chart_with_upwards_trend: PortFolio replication")
 st.write(
 """This is a tool to explore your portfolio replication options using
 Futures available on the market. \n"""
-)
+) come faccio a mettere un logo che creo io?
+
+
+
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 BASEDIR = 'FinalProject/App/'
