@@ -42,6 +42,7 @@ st.write("---")
 st.write("## :chart: Futures Outline")
 st.write(
 """Here is a rundown of the futures that we used in our study:
+
 **RX1**: Highly liquid German government bond, widely regarded as a safe benchmark for fixed-income investments.
 
 **TY1**: 10-year U.S. Treasury bond, representing a longer-term, low-risk government debt instrument, often used for market stability.
