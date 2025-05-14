@@ -11,7 +11,7 @@ import streamlit as st
 from PIL import Image
 
 # Carica l'immagine
-logo = Image.open('FinalProject/App/LOgo_politecnico_Milano.png')
+logo = Image.open('FinalProject/App/Logo_Politecnico_Milano.png')
 
 # Imposta il logo come titolo della pagina
 st.image(logo, width=100)  # Puoi modificare la larghezza a piacere
