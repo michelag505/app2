@@ -29,7 +29,7 @@ st.title(" :chart_with_upwards_trend: PortFolio replication")
 st.write(
 """This is a tool to explore your portfolio replication options using
 Futures available on the market. \n"""
-) come faccio a mettere un logo che creo io?
+) 
 
 
 
