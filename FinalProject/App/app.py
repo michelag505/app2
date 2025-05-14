@@ -61,6 +61,7 @@ st.write(
 **DU1**: 2-year German government bond, also called the “Schatz,” known as a safe, liquid short-term investment.
 
 **TU2**: 2-year U.S. Treasury bond, considered a low-risk, short-term government debt security, used as a benchmark for risk-free rates."""
+)
 
 
 
